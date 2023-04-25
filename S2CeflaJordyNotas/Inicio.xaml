@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S2CeflaJordyNotas.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="INICIO" FontSize="24" HorizontalTextAlignment="Center"/>
+            <Image Source="https://www.uisrael.edu.ec/wp-content/uploads/2023/01/logo-uisrael@2x-e1674848533171.png"/>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su usuario"/>
+            <Entry x:Name="txtPass" Placeholder="Ingrese su password"/>
+
+            <Button x:Name="btnAbrir" Text=" Ingresar" Clicked="btnAbrir_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
